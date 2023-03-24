@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{}%
+\contentsline {section}{\numberline {2}Análisis del proyecto}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Características del proyecto}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Metodología}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Ventajas y desventajas}{3}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Descripción del contexto}{3}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Problemas específicos}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Problematica}{6}{}%
