@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1679706024 "/home/joshieadalid/Documentos/Semestre 2023-02/ADS/Planeacion/Planeacion.tex" "Planeacion.pdf" "Planeacion" 1679706025
-  "/home/joshieadalid/Documentos/Semestre 2023-02/ADS/Planeacion/Planeacion.tex" 1679706023 19474 c5eeeb4d693af0dd8f2a47d311749476 ""
+["pdflatex"] 1679707140 "/home/joshieadalid/Documentos/Semestre 2023-02/ADS/Planeacion/Planeacion.tex" "Planeacion.pdf" "Planeacion" 1679707141
+  "/home/joshieadalid/Documentos/Semestre 2023-02/ADS/Planeacion/Planeacion.tex" 1679707140 20861 02b6157f91fb9ed2f5f4c1bde410b9a9 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650183167 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1650183167 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -36,9 +36,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1678334533 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1678334502 2927658 c3d0affbf6786116d37da56efaf21302 ""
   "Logo_IPN.png" 1679671292 189938 3fefefd1d1f6fd4c86ebb7c50dd69229 ""
-  "Planeacion.aux" 1679706025 1877 add0c4e69343d43aeabb7fa0b3328d58 "pdflatex"
-  "Planeacion.tex" 1679706023 19474 c5eeeb4d693af0dd8f2a47d311749476 ""
-  "Planeacion.toc" 1679706025 1097 f8f48cfce6ddcc83fd9eccaeff3159fd "pdflatex"
+  "Planeacion.aux" 1679707141 1878 7ce2fa16491f7a3db5ea2ea2795dfb72 "pdflatex"
+  "Planeacion.tex" 1679707140 20861 02b6157f91fb9ed2f5f4c1bde410b9a9 ""
+  "Planeacion.toc" 1679707141 1098 d9083ae0d5d4a694a68fc30e8cd31f9a "pdflatex"
   "escudoESCOM.png" 1679671292 17430 ba0b644bafe21ca6e2cda68575a4466e ""
   (generated)
   "Planeacion.aux"
