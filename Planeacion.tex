@@ -70,20 +70,20 @@ Incremental enfocado a SCRUM
 \subsection{Ventajas y desventajas}
 Metodología, de la solución del problema o de la tecnología.
 
-\subsubsection*{Ventajas}
+\subsubsection{Ventajas}
 \begin{itemize}
 	\item Flexibilidad: Es una metodología ágil que se adapta fácilmente a los cambios del proyecto y a los requerimientos del cliente. Así que es fácil adaptarse al proceso del trabajo para los requerimientos cambiantes.
 	\item Colaboración: Fomenta la estrecha colaboración, lo que ayuda a que todos estén en sintonía con las necesidades del proyecto.
 	\item Mejora continua: Al final de cada sprint se identifican las áreas de oportunidad y se ajusta el proceso de trabajo para el siguiente sprint.
 \end{itemize}
-\subsubsection*{Desventajas}
+\subsubsection{Desventajas}
 \begin{itemize}
 	\item Complejidad: Scrum puede ser \emph{complejo} y difícil de implementar en proyectos grandes y complejos.
 	\item Falta de documentación: Se enfoca en la entrega continua del producto.
 	\item Falta de previsibilidad: Se enfoca en la adaptabilidad y la entrega, así que al final no se sabe con certeza el costo del producto terminado.
 \end{itemize}
 
-\subsection*{Análisis del problema}
+\subsection{Análisis del problema}
 \subsubsection{Descripción del contexto}
 
 En la guardería asisten diariamente niños de entre 3 meses y 6 años en turnos matutino y vespertino. Durante su estancia, los niños realizan diversas actividades que contribuyen a su adecuado desarrollo, tales como alimentación, descanso, aseo personal, y juegos y dinámicas.
@@ -98,17 +98,6 @@ En caso de ser necesario, un médico está disponible para atender a los niños 
 
 Los padres de familia también proporcionan información particular sobre sus hijos a la institución para que se puedan tomar las medidas adecuadas en beneficio del infante.
 
-\begin{itemize}
-	\item Directora
-	\item \emph{La Bola}
-	\item Nutriólogo
-	\item Trabajador social
-	\item Capital humano
-	\item Médicos
-	\item Profesores
-	\item Secretarios
-\end{itemize}
-
 En la guardería, los niños se encuentran distribuidos en salones de dos grupos de edades: de 0 a 3 años y de 3 a 6 años. Una vez que los niños superan la edad límite de la guardería, se les da de alta y se integran a su vida escolar.
 
 En cuanto a la alimentación, los niños de entre 3 meses y 1 año y medio comparten su comida en un mismo ambiente, mientras que los niños de 1 año y medio hasta 6 años comen en otro espacio separado. De esta forma, se busca garantizar una alimentación adecuada y segura para cada grupo de edad.
@@ -116,7 +105,7 @@ En cuanto a la alimentación, los niños de entre 3 meses y 1 año y medio compa
 Existe una guardería perteneciente al gobierno tal que la guardería guarda niños.
 
 Reportar el estado del niño a cada padre es tardado, porque solo enteran hasta el final de la jornada, y en casos muy especiales de una emergencia médica. Además el seguimiento de la condición de salud del niño es inconveniente para un expediente médico.
-\subsubsection*{Problema general}
+\subsubsection{Problema general}
 
 En la guardería actualmente existe una falta de comunicación efectiva de la información necesaria para los tutores, el personal médico y los profesores, lo que genera una búsqueda y captura de información tardada y entorpece otras actividades importantes.
 
@@ -146,7 +135,7 @@ Hay algunos problemas con la manera en que se comunican los imprevistos y situac
 El personal medico tiene dificultades al acceder al expediente del infante lastimado porque hay mucho material físico y es tardado buscarlo niño por niño.
 Además, no hay un registro adecuado de los objetos que entran y salen con los estudiantes, lo que puede ser problemático. El seguimiento médico de los alumnos no es muy completo, lo que puede ser peligroso en caso de emergencias. Y, por último, la falta de un registro completo y accesible de la información relevante de cada niño en un formato simplificado dificulta el seguimiento personalizado.
 
-\subsection*{Soluciones por problemática}
+\subsection{Soluciones por problemática}
 \begin{itemize}
 
 	% Inicio de parte de Eidan
@@ -250,16 +239,39 @@ Además, no hay un registro adecuado de los objetos que entran y salen con los e
 		      \item El tiempo que la maestra dedica a responder preguntas de los padres retrasa el proceso de entrega de los estudiantes.
 		            \begin{itemize}
 			            \item El Calendario con posters con prioridades
+			            \item Asistir las observaciones de la maestra utilizando una inteligencia artificial
 		            \end{itemize}
 	      \end{itemize}
 \end{itemize}
 
-\subsection*{Solución integral}
-Para solucionar estos problemas se proponen diversas medidas como notificaciones push para mantener a los usuarios informados, registro de comida y pertenencias, expediente digital del niño, digitalización de datos y herramientas de búsqueda y ordenamiento, entre otras. Estas soluciones permitirían una gestión integral y personalizada de la información, mejorar la comunicación y coordinación entre los distintos actores y optimizar la eficiencia en la gestión de la institución.
+\subsection{Solución integral}
+Para solucionar estos problemas se proponen diversas medidas como notificaciones push para mantener a los usuarios informados, registro de comida y pertenencias, expediente digital del niño, digitalización de datos del personal, herramientas de búsqueda y ordenamiento, entre otras. Estas soluciones permitirían una gestión integral y personalizada de la información, mejorar la comunicación y coordinación entre los distintos actores y optimizar la eficiencia en la gestión de la institución.
 
 
-\subsection*{Alcance}
+\subsection{Alcance}
 \begin{itemize}
-	\item 
+	\item Crear usuarios que puedan acceder al sistema con un login
+	\item Usar una pantalla que permita asignar privilegios de usuario para la gestión de perfiles.
+	\item Generar un expediente por niño, donde se incluyan antecedentes como la manera en la que ocurrió el parto (normal o cesárea), complicaciones durante el mismo y alergias.
+	\item Crear una pantalla de administración de salas
+	\item 	Generar un reporte que contenga Información sobre comidas, baños y siestas del infante.
+	\item 	Crear un espacio para que la maestra pueda registrar observaciones (comidas, evacuaciones) de un infante individualmente.
+	\item 	Mostrar los grupos y permitir identificar la localización y responsables de cada infante.
+	\item 	Colocar un registro de salidas y entradas del infante
+	\item 	Incluir una funcionalidad para manejar la información de varios hijos en un mismo perfil de tutor.
+	\item 	Incluir una funcionalidad donde cada profesor pueda acceder a la información de los infantes que tiene a su cargo para facilitar el registro de actividades.
+	\item 	Mostrar el plan de estudios activo.
+	\item 	Colocar un espacio particular donde se incluya un menú alternativo.
+	\item 	Generar un calendario de eventos mensuales para que la comunidad escolar se mantenga informada de las actividades que requieran especial atención de los tutores.
+	\item 	Colocar un espacio donde se especifiquen los horarios de comidas del infante.
+	\item Crear y mostrar un espacio para el registro de observaciones del médico sobre el infante
+	\item 	Mostrar datos de seguimiento médico por infante.
+	\item 	Incluir un espacio donde la maestra pueda saber si un niño requiere cuidados especiales por alguna situación de salud.
+	\item 	Funcionalidad especial para los perfiles de médico que les permitan registrar la información de los infantes y la atención brindada a cada uno.
+	\item 	Tener un registro de las pertenencias del cada infante
+	\item 	Incluir notificaciones para mantener a los tutores informados de situaciones relevantes
+	\item 	Hay que enfatizar que este sistema es un sistema para sistematizar ideas y asegurar su implementación.
+	\item 	Crear un registro de tareas y recados en el perfil de los profesores.
+
 \end{itemize}
 \end{document}
