@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  24 MAR 2023 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  24 MAR 2023 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -56,6 +56,8 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
+) (/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count196
@@ -126,29 +128,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `Planeacion.toc'.
 
- [1] [2] [3] [4] [5] [6] [7] [8] [9]
-<Cronograma_Virtual_Baby.png, id=46, 4331.18124pt x 1360.08125pt>
-File: Cronograma_Virtual_Baby.png Graphic file (type png)
-<use Cronograma_Virtual_Baby.png>
-Package pdftex.def Info: Cronograma_Virtual_Baby.png  used on input line 291.
-(pdftex.def)             Requested size: 324.82458pt x 102.0017pt.
- [10 <./Cronograma_Virtual_Baby.png>] (./Planeacion.aux
+ [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+<Jira2.png, id=49, 1454.43375pt x 750.805pt>
+File: Jira2.png Graphic file (type png)
+<use Jira2.png>
+Package pdftex.def Info: Jira2.png  used on input line 294.
+(pdftex.def)             Requested size: 581.7632pt x 300.31668pt.
+ [11
+
+ <./Jira2.png>] [12
+
+] (./Planeacion.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 2646 strings out of 478238
- 43083 string characters out of 5850457
- 359372 words of memory out of 5000000
- 20907 multiletter control sequences out of 15000+600000
+ 2675 strings out of 478238
+ 43644 string characters out of 5850457
+ 359301 words of memory out of 5000000
+ 20933 multiletter control sequences out of 15000+600000
  472073 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,7n,62p,603b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Planeacion.pdf (11 pages, 464301 bytes).
+Output written on Planeacion.pdf (13 pages, 403795 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

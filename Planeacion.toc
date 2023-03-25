@@ -15,3 +15,4 @@
 \contentsline {subsection}{\numberline {2.6}Solución integral}{9}{}%
 \contentsline {subsection}{\numberline {2.7}Alcance}{9}{}%
 \contentsline {section}{\numberline {3}Cronograma}{10}{}%
+\contentsline {subsection}{\numberline {3.1}Duración de sprints}{12}{}%
