@@ -158,11 +158,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT Planeacion.toc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT ./Jira2.png
-INPUT ./Jira2.png
-INPUT Jira2.png
-INPUT ./Jira2.png
-INPUT ./Jira2.png
+INPUT ./Jira.rotated.png
+INPUT ./Jira.rotated.png
+INPUT Jira.rotated.png
+INPUT ./Jira.rotated.png
+INPUT ./Jira.rotated.png
 INPUT Planeacion.aux
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  24 MAR 2023 19:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  24 MAR 2023 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -128,30 +128,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `Planeacion.toc'.
 
- [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
-<Jira2.png, id=49, 1454.43375pt x 750.805pt>
-File: Jira2.png Graphic file (type png)
-<use Jira2.png>
-Package pdftex.def Info: Jira2.png  used on input line 294.
-(pdftex.def)             Requested size: 581.7632pt x 300.31668pt.
- [11
+ [1] [2] [3] [4] [5] [6] [7] [8] [9]
+<Jira.rotated.png, id=46, 750.805pt x 1454.43375pt>
+File: Jira.rotated.png Graphic file (type png)
+<use Jira.rotated.png>
+Package pdftex.def Info: Jira.rotated.png  used on input line 292.
+(pdftex.def)             Requested size: 300.31668pt x 581.7632pt.
+ [10]
+Overfull \vbox (55.46594pt too high) has occurred while \output is active []
 
- <./Jira2.png>] [12
-
-] (./Planeacion.aux
+ [11 <./Jira.rotated.png>] [12] (./Planeacion.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
  2675 strings out of 478238
- 43644 string characters out of 5850457
+ 43693 string characters out of 5850457
  359301 words of memory out of 5000000
  20933 multiletter control sequences out of 15000+600000
  472073 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,7n,62p,603b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Planeacion.pdf (13 pages, 403795 bytes).
+Output written on Planeacion.pdf (13 pages, 402113 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
