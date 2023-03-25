@@ -5,12 +5,13 @@
 \contentsline {subsection}{\numberline {2.2}Metodología}{3}{}%
 \contentsline {subsection}{\numberline {2.3}Ventajas y desventajas}{3}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}Ventajas}{3}{}%
-\contentsline {subsubsection}{\numberline {2.3.2}Desventajas}{3}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Desventajas}{4}{}%
 \contentsline {subsection}{\numberline {2.4}Análisis del problema}{4}{}%
 \contentsline {subsubsection}{\numberline {2.4.1}Descripción del contexto}{4}{}%
-\contentsline {subsubsection}{\numberline {2.4.2}Problema general}{4}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Problema general}{5}{}%
 \contentsline {subsubsection}{\numberline {2.4.3}Problemas específicos}{5}{}%
 \contentsline {subsubsection}{\numberline {2.4.4}Problemática}{6}{}%
 \contentsline {subsection}{\numberline {2.5}Soluciones por problemática}{6}{}%
-\contentsline {subsection}{\numberline {2.6}Solución integral}{8}{}%
+\contentsline {subsection}{\numberline {2.6}Solución integral}{9}{}%
 \contentsline {subsection}{\numberline {2.7}Alcance}{9}{}%
+\contentsline {section}{\numberline {3}Cronograma}{10}{}%
