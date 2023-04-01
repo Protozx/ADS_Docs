@@ -1,0 +1,863 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{longtable}
+\author{Hernández Hernández Ángel, Juárez Botello Josué Adalid, Plata Salinas Eidan Owen, Trejo Arraiga Rodrigo Gerardo}
+\title{Planeación ADS}
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[height=2cm]{Logo_IPN.png}
+	\hfill
+	\includegraphics[height=2cm]{escudoESCOM.png}
+
+	\vspace{-1.5cm}
+	\large\textbf{ Instituto Politécnico Nacional}\\
+	\large\textbf{Escuela Superior de Cómputo}\\
+	\large{Unidad Zacatenco}
+
+	\vspace{2cm}
+
+	\Large{\textbf{Análisis y Diseño de Sistemas}}
+
+	\vspace{10cm}
+
+	\begin{tabular}{rl}
+		\textbf{Proyecto 2} & Identificación de requerimientos                    \\
+		\textbf{Profesor} & Vélez Saldaña Ulises          \\
+		\textbf{Equipo}
+		                  & Hernández Hernández Ángel     \\
+		                  & Juárez Botello Josué Adalid   \\
+		                  & Plata Salinas Eidan Owen      \\
+		                  & Trejo Arriaga Rodrigo Gerardo \\
+	\end{tabular}
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+\section{Introducción}
+Este documento es el registro de los requerimientos funcionales, no funcionales y de usuario para el sistema de la guardería que será tratada por VirtualBaby. La descripción de los requerimientos incluye principalmente su nombre, descripción y prioridad en el sistema.
+Los requerimientos en el software son las especificaciones de las funcionalidades, características y restricciones que deben ser implementadas en el software para satisfacer las necesidades del usuario y del sistema en sí. Estos requerimientos se clasifican en requerimientos funcionales y no funcionales, de los cuales se desprenden los del negocio, de plataforma, de interacción con el usuario, de datos y los de propiedades de software. Los requerimientos funcionales describen lo que el sistema debe hacer, mientras que los requerimientos no funcionales describen cómo el sistema debe hacerlo.
+Los requerimientos en el software son importantes porque permiten al equipo de desarrollo del software entender las necesidades del usuario y del sistema, así como establecer una base sólida para el diseño, desarrollo, prueba y mantenimiento del software. Además, los requerimientos son esenciales para garantizar la calidad del software y para asegurar que el software entregado cumpla con las expectativas del usuario y del sistema. Los requerimientos también proporcionan una base para la comunicación efectiva entre los miembros del equipo de desarrollo del software y entre los desarrolladores y los usuarios.
+
+\section{Requerimientos}
+\subsection{Requerimientos de usuario}
+\begin{longtable}{|p{1.0cm}|p{3.8cm}|p{5.0cm}|p{1.2cm}|}	\hline
+	\textbf{ID} & \textbf{Requerimiento} & \textbf{Descripción} & \textbf{Prioridad} \\
+	\hline
+	RU1 &
+	Ver reportes &
+	Se necesita generar y visualizar un reporte que contenga la información sobre comidas y baños del infante en un día. &
+	2
+	\\\hline
+	
+	RU2 &
+	Ver antecedentes médicos &
+	Debe de ser posible visualizar los antecedentes médicos del infante. &
+	4
+	\\ \hline
+
+	RU3 &
+	Ver historial médico reciente &
+	Se necesita ver los reportes de atenciones médicas recientes que haya recibido el infante. &
+	4
+	\\ \hline
+
+	RU4 &
+	Ver salón infante &
+	Se requiere que los profesores y padres puedan conocer en qué salón se encuentran los infantes a su cargo. &
+	4
+	\\ \hline
+
+	RU5 &
+	Hacer menú alternativo &
+	Los infantes tendrán menús diferentes según su edad y condición médica si así lo requieren. &
+	3
+	\\ \hline
+
+	RU6 &
+	Ver menú alternativo &
+	Los menús alternativos deben de ser visibles por los tutores de los infantes en caso de haber sido utilizados. &
+	3
+	\\ \hline
+
+	RU7 &
+	Maestros por grupo &
+	Se necesita conocer qué docentes están a cargo de un grupo en un momento dado. &
+	2
+	\\ \hline
+
+	RU8 &
+	Registro ingesta &
+	Se requiere que un docente pueda registrar qué cantidad de alimento ingiere cada infante a su cargo durante un periodo de comida. &
+	2
+	\\ \hline
+
+	RU9 &
+	Registro evacuación &
+	Se requiere que un docente pueda registrar la hora en la un infante a su cargo ha tenido una evacuación, así como la información del suceso. &
+	2
+	\\ \hline
+
+	RU10 &
+	Registro de observaciones individuales &
+	Se requiere que un docente pueda registrar observaciones para un infante a su cargo. &
+	1
+	\\ \hline
+
+	RU11 &
+	Registro de pertenencias &
+	Es necesario tener un registro de las pertenencias de cada infante. &
+	1
+	\\ \hline
+
+	RU12 &
+	Crear menú mensual &
+	Se requiere que la nutrióloga pueda generar un menú de comidas para ser administrado a los alumnos durante el mes. &
+	3
+	\\ \hline
+
+	RU13 &
+	Crear menú alternativo &
+	Se requiere que la nutrióloga pueda generar un menú alternativo para los infantes que lo requieran. &
+	3
+	\\ \hline
+
+	RU14 &
+	Registro atención médica &
+	Se requiere que el médico pueda hacer un reporte después de atender a un infante. &
+	4
+	\\ \hline
+
+	RU15 &
+	Registro de desempeño &
+	Los profesores deben de poder registrar el nivel de desempeño de los infantes en las  diversas actividades que se realicen durante su estancia en la guardería. &
+	5
+	\\ \hline
+
+	RU16 &
+	Registro tareas y recados &
+	Los profesores deben de poder llevar un control de todas las tareas y avisos que les asignen a sus grupos correspondientes. &
+	5
+	\\ \hline
+
+	RU17 &
+	Registro días inhábiles &
+	El secretario debe poder registrar y modificar los días inhábiles y eventos oficiales  en el calendario. &
+	3
+	\\ \hline
+
+	RU18 &
+	Restricción de privilegios &
+	Tanto los tutores como el personal de la guardería están limitados a ciertas actividades e información y no pueden involucrarse ni obtener información en áreas que no les competan. &
+	1
+	\\ \hline
+
+	RU19 &
+	Registro de datos &
+	Es preciso almacenar datos personales generales de todos los usuarios y personal de la guardería, así como información específica dependiendo de la labor que desempeñen dentro de la misma. &
+	1
+	\\ \hline
+
+	RU20 &
+	Plan de estudios &
+	Tanto los tutores como los docentes, deben poder consultar el plan de estudios asignado a cada grupo. &
+	3
+	\\ \hline
+
+	RU21 &
+	Control de entradas y salidas &
+	Es importante que se tenga un estricto control de las entradas y salidas de los infantantes de la guardería, esto incluye además conocer quién de los responsables asignados fue quien recogió al niño en un determinado día, la hora de entrada y salida. &
+	2
+	\\ \hline
+
+	RU22 &
+	Expediente médico &
+	Es necesario tener un expediente por infante que contenga su información médica necesaria para poder atender cualquier emergencia. &
+	4
+	\\ \hline
+
+	RU23 &
+	Cuidados especiales &
+	El docente necesita saber si un infante requiere cuidados especiales por alguna situación de salud. &
+	4
+	\\ \hline
+
+	RU24 &
+	Consulta de horas de comida &
+	Los tutores deben de poder conocer los horarios de comidas de los infantes. &
+	2
+	\\ \hline
+
+	RU25 &
+	Selección de información según el hijo &
+	Un tutor que tenga varios infantes inscritos en la guardería debe poder acceder a su información de una forma rápida y práctica. &
+	1
+	\\ \hline
+
+	RU26 &
+	Visualización de hijos por profesor &
+	Cada docente tendrá acceso solo a la información de los infantes que tiene asignados en su grupo. &
+	1
+	\\ \hline
+
+	RU27 &
+	Registro de actividades grupales &
+	Es necesario contar con un registro de actividades por grupo, el cual será gestionado por los docentes y visible para los tutores. &
+	1
+	\\ \hline
+
+	RU28 &
+	Revisión de Actividades &
+	Los tutores deben de poder revisar las actividades que sus infantes desempeñan durante su estancia en la guardería. &
+	1
+	\\ \hline
+
+	RU29 &
+	Notificaciones de emergenc &
+	Tanto los tutores como el personal médico debe tener forma de comunicar a los tutores sobre emergencias relacionadas con los infantes. &
+	5
+	\\ \hline
+
+	RU30 &
+	Debe de haber una forma de entregar avisos a los tutores. &
+	Entrega de avisos &
+	5
+	\\ \hline
+
+	RU31 &
+	Calenadrizar eventos&
+	Se requiere un calendario de eventos mensuales para que la comunidad escolar se mantenga informada de los eventos que se realizan, así como para que los tutores puedan estar al tanto de los mismos en caso de requerir su participación. &
+	3
+	\\ \hline
+	
+	RU32 &
+	Evacuaciones Sospechosas &
+	Cuando un infante haya tenido múltiples evacuaciones sospechosas en un periodo corto de tiempo, se le debe de notificar a su tutor.&
+	5
+	\\ \hline
+
+	RU33 &
+	Días Inhábiles &
+	Los tutores puueden ver los dias inhabiles. &
+	1
+	\\ \hline
+
+	RU34 &
+	Consulta de dudas &
+	Los tutores deben de tener una forma de consultar dudas con los docentes y los otros tutores.  &
+	5
+	\\ \hline
+
+	RU35 &
+	Registro de salas &
+	Deben de poder abrirse nuevas salas y asignarle un tipo dependiendo del grupo al que se asigne. &
+	1
+	\\ \hline
+
+\end{longtable}
+
+\subsection{Requerimientos funcionales}
+\begin{longtable}{|p{1.0cm}|p{3.0cm}|p{5.0cm}|p{1.2cm}|p{0.75cm}|}
+	\hline
+	Id &
+	Nombre &
+	Descripción &
+	Id RU &
+	Prior. \\ \hline
+
+
+	RF1 &
+	Consultar reporte &
+	Mostrar por fecha las observaciones, los registros de comidas y evacuaciones de los infantes. &
+	1, 10, 9, 32 &
+	2 \\ \hline
+
+	RF2 &
+	Generar reporte de comidas grupales &
+	En una lista de los alumnos a cargo de un profesor, capturar la cantidad de comida que fue ingerida en un horario de alimentos, así como el menu default. &
+	1, 24 &
+	2 \\ \hline
+
+	RF3 &
+	Cambiar el menú de un infante en reporte grupal &
+	En el reporte de comida grupal, se puede cambiar el menú de un infante específico por otro diferente y agregar observaciones al mismo. &
+	5, 12, 13 &
+	2 \\ \hline
+
+	RF4 &
+	Generar reporte de comida individual &
+	En el reporte de comida para un infante, almacenar: fecha, hora y comida que le fue administrada. &
+	&
+	5, 8\\ \hline
+
+	RF5 &
+	Capturar antecedentes médicos &
+	Almacenar datos sobre los antecedentes médicos del infante. &
+	2, 3 & 
+	 1
+	\\ \hline
+
+	RF6 &
+	Consultar antecedentes médicos &
+	Mostrar por cada infante los antecedentes médicos que se tengan registrados. &
+	2 & 
+	 1
+	\\ \hline
+
+	RF7 &
+	Generar asistencia médica &
+	Almacenar datos sobre las asistencias médicas que haya recibido el infante, así como las indicaciones y datos del médico que lo atendió. &
+	3, 14 & 
+	 4
+	\\ \hline
+
+	RF8 &
+	Consultar asistencia médica &
+	Mostrar por cada infante, los detalles sobre atenciones médicas individuales recibidas, agrupándolas por fecha de ocurrencia. &
+	3 & 
+	 1
+	\\ \hline
+
+	RF9 &
+	Consulta de perfil &
+	Que en el perfil del niño se muestre el salón donde está asignado y  los docentes que lo cuidan. &
+	4, 5, 35 & 
+	 2
+	\\ \hline
+
+	RF10 &
+	Generar menús &
+	Almacenar los menús que se le otorgarán a los infantes por grupo. &
+	5, 6, 12, 13 & 
+	 2
+	\\ \hline
+
+	RF11 &
+	Mostrar menú alternativo &
+	Que los tutores de los infantes que tienen asignado un menú alternativo puedan observar en el perfil del menor. &
+	6, 24 & 
+	 2
+	\\ \hline
+
+	RF12 &
+	Generar reporte de evacuación &
+	Registrar el reporte de evacuación para un infante, en el que se almacene: la hora de ocurrencia, su tipo (pipí, popó), así como observaciones respecto de la misma. &
+	9, 12 & 
+	 2
+	\\ \hline
+
+	RF13 &
+	Anotación de observaciones &
+	Registrar observaciones generales sobre un infante durante el tiempo de estancia en la guardería. &
+	10 & 
+	 5
+	\\ \hline
+
+	RF14 &
+	Registro de pertenencias del infante &
+	Llevar un registro de las pertenencias del infante, que podrá ser visualizado en su perfil. &
+	11 & 
+	 5
+	\\ \hline
+
+	RF15 &
+	Generar actividad grupal &
+	Crear una actividad para todos los niños que se encuentren dentro de un grupo en un momento específico. &
+	15, 27, 28 & 
+	 5
+	\\ \hline
+
+	RF16 &
+	Registrar el desempeño del infante &
+	Capturar la actitud y efectividad con la que el estudiante cumplió una actividad. &
+	15, 28 & 
+	 5
+	\\ \hline
+
+	RF17 &
+	Consultar desempeño en actividad &
+	Mostrar el desempeño que tuvo un infante en una actividad propuesta por el docente. &
+	15, 28 & 
+	 5
+	\\ \hline
+
+	RF18 &
+	Generar tarea &
+	Registrar una tarea para ser desarrollada por los infantes. &
+	15 & 
+	 5
+	\\ \hline
+
+	RF19 &
+	Consultar tarea &
+	Visualizar una tarea que haya sido asignada a un infante. &
+	16 & 
+	 5
+	\\ \hline
+
+	RF20 &
+	Generar recado &
+	Registrar un recado para ser entregado a uno o más tutores. &
+	16 & 
+	 5
+	\\ \hline
+
+	RF21 &
+	Consultar recado &
+	Visualizar un recado que haya sido asignado a un tutor. &
+	16 & 
+	 5
+	\\ \hline
+
+	RF22 &
+	Visualizar calendario &
+	Mostrar el calendario correspondiente al mes. &
+	17, 31 & 
+	 3
+	\\ \hline
+
+	RF23 &
+	Días de suspensión de labores &
+	Registrar un día inhábil o festivo en el calendario. &
+	17, 31 & 
+	 3
+	\\ \hline
+
+	RF24 &
+	Asignar privilegios &
+	Administrar los privilegios de usuario de acuerdo a su  tipo de usuario, así como permitir la creación de nuevos tipos de usuario. &
+	18 & 
+	 1
+	\\ \hline
+
+	RF25 &
+	Registro y gestión de usuario &
+	Capturar y gestionar los datos de un usuario. &
+	19 & 
+	 1
+	\\ \hline
+
+	RF26 &
+	Registro de plan de estudios &
+	Registrar un plan de estudios. &
+	20 & 
+	 3
+	\\ \hline
+
+	RF27 &
+	Consulta de plan de estudios &
+	Consultar un plan de estudios creado. &
+	20 & 
+	 3
+	\\ \hline
+
+	RF28 &
+	Registro de entradas &
+	Registrar la entrada de un infante a la guardería. &
+	21 & 
+	 2
+	\\ \hline
+
+	RF29 &
+	Registro de salidas &
+	Registrar la salida de un infante de la guardería. &
+	21 & 
+	 2
+	\\ \hline
+
+	RF30 &
+	Consulta de asistencias &
+	Visualizar las entradas y salidas de los infantes. &
+	21 & 
+	 2
+	\\ \hline
+
+	RF31 &
+	Gestión de expedientes &
+	Registrar y administrar el expediente de un infante. &
+	22 & 
+	 1
+	\\ \hline
+
+	RF32 &
+	Consultar expediente &
+	Consultar el expediente de un infante. &
+	22 & 
+	 1
+	\\ \hline
+
+	RF33 &
+	Señal de cuidados especiales &
+	Marcar cuando un niño requiere cuidados especiales. &
+	23 & 
+	 4
+	\\ \hline
+
+	RF34 &
+	Consulta de hijo &
+	Acceder al perfil y visualizar el reporte de uno o varios infantes, en caso de que el tutor tenga más de un hijo en la guardería. &
+	1, 25 & 
+	 2
+	\\ \hline
+
+	RF35 &
+	Alumnos a su cargo &
+	Que el docente pueda consultar el perfil y los reportes de los infantes a su cargo. &
+	4, 7, 26 & 
+	 1
+	\\ \hline
+
+	RF36 &
+	Alerta de avisos &
+	En la pantalla de inicio del tutor y docente mostrar los avisos más relevantes a corto plazo. &
+	30 & 
+	 5
+	\\ \hline
+
+	RF37 &
+	Generar aviso &
+	Crear un aviso que contenga la fecha, y texto correspondiente. &
+	30 & 
+	 5
+	\\ \hline
+
+	RF38 &
+	Crear eventos &
+	Registrar un evento que contenga el nombre de dicho evento, descripción, fecha, y requisitos (si los requiere). &
+	31 & 
+	 3
+	\\ \hline
+
+	RF39 &
+	Consultar evento &
+	Mostrar un cartel que contenga la información de un evento, y que permita el registro de un tutor. &
+	31 & 
+	 3
+	\\ \hline
+
+	RF40 &
+	Calendario de eventos &
+	Que sea posible visualizar los eventos dentro del calendario en su día correspondiente con una pequeña marca, que se expanda al evento completo cuando se haga clic en ella. &
+	31 & 
+	 3
+	\\ \hline
+	
+	RF41 &
+	Alerta de evacuaciones alarmantes &
+	Avisar al tutor cuando su infante haya tenido muchas evacuaciones inusuales o que puedan dar indicios de un problema médico. &
+	9, 32 & 
+	 5
+	\\ \hline
+
+	RF42 &
+	Creación de anuncios &
+	El docente de un grupo puede generar un anuncio que contenga su título y una descripción del mismo. &
+	34 & 
+	 5
+	\\ \hline
+
+	RF43 &
+	Consulta de anuncios &
+	El tutor puede consultar los avisos emitidos por los docentes están al cuidado de sus infantes, y redactar una duda que se vea reflejada debajo del aviso, junto con las dudas del resto de tutores.  &
+	30 & 
+	 5
+	\\ \hline
+
+	RF44 &
+	Actualización de anuncio &
+	El docente puede actualizar un anuncio de ser necesario, &
+	30 & 
+	 5
+	\\ \hline
+
+	RF45 &
+	Alerta de cambio de anuncio &
+	Se avisará del cambio de un anuncio a los tutores. &
+	30 & 
+	 5
+	\\ \hline
+
+	RF46 &
+	Creación de salón &
+	Es necesario dar de alta un salón. &
+	35 & 
+	 1
+	\\ \hline
+
+	RF47 &
+	Crear grupo &
+	Es necesario asignar a un grupo 3 docentes, una categoría y un plan de estudios. &
+	7, 20, 27 & 
+	 3
+	\\ \hline
+
+	RF48 &
+	Asignar sala &
+	Asignar un grupo a una sala existente. &
+	27, 4 & 
+	 1
+	\\ \hline
+
+	RF49 &
+	Asignar infante &
+	Asignar un infante a un grupo existente. &
+	4, 28 & 
+	 1
+	\\ \hline
+
+	RF50 &
+	Alerta de situación de emergencia &
+	Avisar al tutor en caso de que haya una situación  de emergencia con alguno de sus infantes. &
+	29 & 
+	 5
+	\\ \hline
+	
+	RF51 &
+	Crear familiograma &
+	Almacenar la foto del familiograma de un infante. &
+	19 & 
+	 1
+	\\ \hline
+
+	RF52 &
+	Visualizar familiograma &
+	Mostrar el familiograma de un infante. &
+	25, 26 & 
+	 1
+	\\ \hline
+
+\end{longtable}
+
+
+\subsection{Requerimientos no funcionales}
+
+\textbf{Requerimientos del Negocio} \\
+	\begin{longtable}{|p{1.0cm}|p{3.0cm}|p{5.0cm}|p{1.2cm}|p{0.75cm}|}
+	\hline
+	\textbf{ID} & \textbf{Requerimiento} & \textbf{Descripción} & \textbf{Prioridad} & \textbf{Estado} \\
+	\hline
+	RN1 & Límite de infantes por salón & Habrá máximo 15 infantes por salón & 1 & 4 \\
+	\hline
+	RN2 & Docentes por grupo & Deben haber 3 docentes por grupo: uno va a ser el titular y 2 son adjuntos. & 1 & 7 \\
+	\hline
+	RN3 & Visualizar información de hijos. & Un tutor sólo puede ver la información de sus propios hijos . & 1 & 25, 1 \\
+	\hline
+	RN4 & Exclusividad del nutriólogo. & Solo el nutriólogo puede crear los menús & 3 & 12, 13 \\
+	\hline
+	RN5 & Exclusividad del médico.  & Solo un médico puede crear reportes médicos de los infantes & 4 & 14 \\
+	\hline
+	RN6 & Restricción de creación de reportes. & Los docentes solo pueden crear reportes para los niños a su cargo & Prioridad & 26, 27 \\
+	\hline
+	RN7 & Restricción de creación de anuncios. & Los docentes solo pueden crear anuncios para el grupo que tienen asignado. & 5 & 30, 16 \\
+	\hline
+	RN8 & Creación de reportes de acuerdo a la asistencia. & Solo se pueden crear reportes para niños que se encuentren presentes en la guardería. & 2 & 21 \\
+	\hline
+	RN9 & Exclusividad del Trabajador Social. & Solo un trabajador social puede dar de alta a los infantes en el sistema. & 1 & 19 \\
+	\hline
+	RN10 & Rango de edad. & Solo se pueden registrar infantes con edades entre 3 meses y 6 años. & 1 & 19 \\
+	\hline
+	RN11 & Personas a cargo del menor. & Un infante debe de tener un único tutor y 3 o más personas autorizadas para recogerlo. & 1 & 19, 21 \\
+	\hline
+	RN12 & Horarios de comida. & Los horarios de comida en la guardería suelen ponerse en automático en 8:30am, 3:00pm, 6:00pm. por default. & 2 & 8 \\
+	\hline
+	RN13 & Recoger a un menor.  & Descripción & 2 & 19,21 \\
+	\hline
+	RN14 & Rango de edad de quien recoge al menor. & Las personas que tienen permiso de recoger al infante deben de ser mayores de 18 años  & 2 & 19 \\
+	\hline
+	RN15 & Del almacenamiento. & Por cuestiones legales, los datos deben de permanecer almacenado al menos durante 5 años antes de poder ser eliminados & 6 & 25 \\
+	\hline
+	\end{longtable}
+
+	%Begin parte Angel 
+	\textbf{Requerimientos de información y datos} \\
+	\begin{longtable}{|p{1.0cm}|p{3.0cm}|p{5.0cm}|p{1.2cm}|p{0.75cm}|}
+	\hline
+	\textbf{ID} & \textbf{Requerimiento} & \textbf{Descripción} & \textbf{Prioridad} & \textbf{Estado} \\
+	\hline
+	RID1 & Nombres del infante & El sistema debe de almacenar los nombres de los menores en un dato de tipo VARCHAR. & 1 & 19 \\
+	\hline
+	RID2 & Fechas de nacimiento & El sistema debe de almacenar las fechas de nacimiento de los infantes en un tipo de dato DATE. & 1 & 19 \\
+	\hline
+	RID3 & Correspondencia de reportes & Un reporte debe corresponder a un único infante. & 2 & 1, 25 \\
+	\hline
+	RID4 & Correspondencia de infantes & Los datos de los infantes registrados deben de estar ligados a un único tutor. & 1 & 19 \\
+	\hline
+	RID5 & Imágenes almacenadas & Las imágenes del sistema deben de estar almacenadas en un dato de tipo BLOB. & 1 & 19 \\
+	\hline
+	RID6 & Privilegios multirol & Un mismo usuario puede tener varios roles. & 1 & 18, 19 \\
+	\hline
+	RID7 & Datos del infante & Los datos del infante que serán almacenados son: nombres, apellidos, sexo, forma de parto, alergias, padecimientos, enfermedades, peso, talla, altura, curp, con quien vive, cuantos hermanos tiene, color de su alma, acta de nacimiento, si es primogenito, numero de abortos que ha tenido y la foto de sus 3 responsables. & 1 & 19 \\
+	\hline
+	RID8 & Datos del tutor & Los datos del tutor que serán almacenados son:  Nombre, rfc, domicilio, dirección, curp, correo, foto, apellidos, sexo, domicilio de trabajo, numero de telefono, y celular. & 1 & 19 \\
+	\hline
+	RID9 & Datos del médico & Los datos del médico que serán almacenados son:  Nombre, rfc, domicilio, dirección, curp, correo, foto, apellidos, sexo, celula profesional. & 1 & 19 \\
+	\hline
+	RID10 & Datos del reporte médico & Los datos del reporte médico que serán almacenados son: peso, estatura, talla, presión, temperatura, indicaciones médicas. & 4 & 14 \\
+	\hline
+	RID11 & Profesores en los reportes & En el reporte de un infante deben de visualizarse los profesores adjuntos. & 1 & 7 \\
+	\hline
+	RID12 & Restricción sobre el género del infante & En el campo referente al sexo de un usuario o infante solo se admitirán los caracteres M y F. & 1 & 19 \\
+	\hline
+	RID13 & Horas & Cuando sea necesario almacenar una hora, se guardará en un tipo de dato TIME. & 2 & 1 \\
+	\hline
+	RID14 & Id automático & Cuando se requiera crear un id, este se generará de manera secuencial. & 1 & 19 \\
+	\hline
+	RID15 & Validación del peso & Se validará que el dato del peso de un infante sea mayor a 0. & 1 & 22 \\
+	\hline	
+	%End parte Angel 
+
+	% Josué
+	RID16 &
+	Validación de estatura&
+	Se validará que el dato ingresado de la estatura de los infantes sea mayor a 0.&
+	22&
+	1 \\ \hline
+	
+	RID17 &
+	Validación de fecha de nacimiento de un usuario&
+	La fecha de nacimiento del usuario debe de ser mayor al año 1930 y menor a la fecha actual.&
+	19&
+	1 \\ \hline
+
+	RID18 &
+	Validación de fecha de nacimiento de un infante&
+	La fecha de nacimiento del infante debe de ser mayor al año 2010 y menor a la fecha actual.&
+	22&
+	1 \\ \hline
+
+	RID19 &
+	Validación de fecha de la talla de un infante&
+	Las tallas del infante deben de ser mayores a 0.&
+	22&
+	1 \\ \hline
+	
+	RID20 &
+	Forma de parto&
+	El dato sobre la forma de parto de un niño debe de estar almacenada en un tipo de dato VARCHAR.&
+	22&
+	1 \\ \hline
+
+	\end{longtable}
+
+
+	\textbf{Requerimientos de la plataforma}\\
+	\begin{longtable}{|p{1.0cm}|p{3.0cm}|p{5.0cm}|p{1.2cm}|p{0.75cm}|}
+	\hline
+	\textbf{ID} & \textbf{Requerimiento} & \textbf{Descripción} & \textbf{Prioridad} & \textbf{Estado} \\
+	\hline
+
+	RP1 &
+	Compatibilidad Windows &
+	El sistema debe de ser compatible con Windows 10. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP2 &
+	Compatibilidad Linux &
+	El sistema debe de ser compatible con Linux. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP3 &
+	Compatibilidad con Google Chrome &
+	El sistema debe de ser compatible con el navegador Google Chrome. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP4 &
+	Compatibilidad Opera GX &
+	El sistema debe de ser compatible con el navegador Opera GX. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP5 &
+	Compatibilidad con Firefox &
+	El sistema debe de ser compatible con el navegador Firefox. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP6 &
+	Compatibilidad con Edge &
+	El sistema debe de ser compatible con el navegador Edge. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP7 &
+	Compatibilidad con JSE &
+	El sistema debe de ser compatible con JAVA SE 9. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP8 &
+	Compatibilidad con HTML &
+	El sistema debe de ser compatible con HTML 5. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP9 &
+	Compatibilidad con CSS &
+	El sistema debe de ser compatible con CSS3. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP10 &
+	Compatibilidad con la AWESOME &
+	El sistema debe de ser compatible con la librería AWESOME de CSS3. &
+	1, 18, 29 &
+	6 \\ \hline
+
+	RP11 & Compatibilidad con HIBERNATE. & El sistema debe de ser compatible con la tecnología HIBERNATE. & 6 & 1, 18, 39 \\
+	\hline
+	RP12 & Compatibilidad con MYSQL & El sistema debe de ser compatible con MYSQL. & 6 & 1, 18, 39.\\
+	\hline
+	RP13 & Compatibilidad con JavaScript & El sistema debe de ser compatible con JS 5ed. version & 6 & 1, 18, 39\\
+	\hline
+	RP14 & Compatibilidad con XAMPP & El sistema debe de ser compatible con XAMPP. & 6 & 1, 18, 39\\
+	\hline
+	RP15 & Compatibilidad con JDK. & El sistema debe de ser compatible con JAVA JDK 17 LTS. & 6 & 1, 18, 39\\  \hline
+	\end{longtable}
+
+
+% Josué
+	\textbf{Requerimientos de interacción con el usuario}\\
+	\begin{longtable}{|p{1.0cm}|p{3.0cm}|p{5.0cm}|p{1.2cm}|p{0.75cm}|}
+	\hline
+	\textbf{ID} & \textbf{Requerimiento} & \textbf{Descripción} & \textbf{Prioridad} & \textbf{Estado} \\
+	\hline
+	RIU1 & Metadatos de inicio de sesión. & El sistema debe guiar al usuario a través del proceso de login. & 1 & 19 \\
+	\hline
+	RIU2 & Priorización de emergencias. & Las alertas de emergencia se diferencian del resto de notificaciones de modo que sean fácilmente reconocibles para los tutores. & 1 & 30 \\
+	\hline
+	RIU3 & Visibilidad de tareas y recados. & Las alertas de tareas y recados deben de llamar la atención de los tutores, tanto cuando son asignados por primera vez, como para cualquier actualización de estos.  & 5 &  30\\
+	\hline
+	RIU4 & Finalización de reporte. & El sistema debe de aclarar cuando se complete un reporte. & 2 & 1\\
+	\hline
+	RIU5 & Límite de botones en control de asistencia. & El sistema de control de asistencia muestra la lista de alumnos y no debe tener más de 4 botones por cada niño. & 2 & 21\\ \hline
+	\end{longtable}
+
+
+
+	\textbf{Requerimientos de Propiedades Software}\\
+	\begin{longtable}{|p{1.0cm}|p{3.0cm}|p{5.0cm}|p{1.2cm}|p{0.75cm}|}
+	\hline
+	\textbf{ID} & \textbf{Requerimiento} & \textbf{Descripción} & \textbf{Prioridad} & \textbf{Estado} \\
+	\hline
+	RPS1 & Usabilidad del sistema. &La interfaz de todos los usuarios del sistema debe de ser sencilla de utilizar. & 6 & 25 \\
+	\hline
+	RPS2 & Flexibilidad de registro. & Todos los campos que tengan la posibilidad de llenarse de manera grupal deben tener la flexibilidad de modificarse en caso de que las condiciones de un infante así lo determinen.  & 6 & 5, 6 \\
+	\hline
+	RPS3 &  Privacidad en los reportes.& El sistema en la sección de los reportes de los infantes debe de tener privacidad.  & 6 & 8, 9, 21 \\
+	\hline
+	RPS4 & Seguridad. & El sistema debe de tener una implementación de seguridad para las contraseñas de inicio de sesión de los diversos usuarios. & 6 & 25 \\
+	\hline
+	RPS5 & Adaptabilidad de pantallas.  & Debe de poder adaptarse y tener una buena visualización en dispositivos con resoluciones diferentes.  & 6 & 25 \\ \hline
+	
+	
+	\end{longtable}
+
+\end{document}

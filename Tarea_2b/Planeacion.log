@@ -1,0 +1,651 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.3.31)  31 MAR 2023 22:57
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/joshieadalid/Descargas/ADS_Docs-main/Tarea_1/Planeacion.tex
+(/home/joshieadalid/Descargas/ADS_Docs-main/Tarea_1/Planeacion.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen141
+\l@unhyphenated=\language87
+ (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+ (/usr/share/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks16
+\es@quotdepth=\count195
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (/usr/share/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count196
+\LTcapwidth=\dimen144
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@gbox=\box55
+\LT@cols=\count197
+\LT@rows=\count198
+\c@LT@tables=\count199
+\c@LT@chunks=\count266
+\LT@p@ftn=\toks18
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count267
+\l__pdf_internal_box=\box56
+) (./Planeacion.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+\openout1 = `Planeacion.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count268
+\scratchdimen=\dimen145
+\scratchbox=\box57
+\nofMPsegments=\count269
+\nofMParguments=\count270
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count271
+\MPscratchDim=\dimen146
+\MPnumerator=\count272
+\makeMPintoPDFobject=\count273
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+<Logo_IPN.png, id=1, 1204.5pt x 1290.8225pt>
+File: Logo_IPN.png Graphic file (type png)
+<use Logo_IPN.png>
+Package pdftex.def Info: Logo_IPN.png  used on input line 13.
+(pdftex.def)             Requested size: 53.09741pt x 56.9055pt.
+<escudoESCOM.png, id=3, 481.8pt x 367.3725pt>
+File: escudoESCOM.png Graphic file (type png)
+<use escudoESCOM.png>
+Package pdftex.def Info: escudoESCOM.png  used on input line 15.
+(pdftex.def)             Requested size: 74.62675pt x 56.9055pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Logo_IPN.png> <./escudoESCOM.png>] (./Planeacion.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+)
+\tf@toc=\write3
+\openout3 = `Planeacion.toc'.
+
+ [1]
+Overfull \hbox (13.69681pt too wide) in paragraph at lines 50--51
+[]|\OT1/cmr/bx/n/10 Prioridad| 
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/10 Visualizaci^^Son de hi-jos
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 234--234
+[]|\OT1/cmr/m/n/10 Se re-quie-re un ca-len-da-rio de
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 239--239
+[]|\OT1/cmr/m/n/10 Evacuaciones Sos-pe-cho-
+ []
+
+
+Overfull \hbox (15.98029pt too wide) in alignment at lines 49--262
+ [] [] [] [] 
+ []
+
+[2] [3] [4]
+Overfull \hbox (3.85495pt too wide) in paragraph at lines 271--271
+[]|\OT1/cmr/m/n/10 Prior.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+[]|\OT1/cmr/m/n/10 5, 12,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\OT1/cmr/m/n/10 Capturar an-te-ce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]|\OT1/cmr/m/n/10 Consultar an-te-ce-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/10 Generar asis-ten-cia
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 320--320
+[]|\OT1/cmr/m/n/10 Consultar asis-ten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]|\OT1/cmr/m/n/10 Mostrar por ca-da in-fan-te,
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 321--321
+\OT1/cmr/m/n/10 los de-ta-lles so-bre aten-cio-nes
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 321--321
+\OT1/cmr/m/n/10 m^^Sedi-cas in-di-vi-dua-les re-ci-bi-das,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\OT1/cmr/m/n/10 agrup^^Sando-las por fe-cha de
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 341--341
+[]|\OT1/cmr/m/n/10 Mostrar men^^Su al-
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 355--355
+[]|\OT1/cmr/m/n/10 Anotaci^^Son de ob-
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 369--369
+[]|\OT1/cmr/m/n/10 Generar ac-ti-vi-dad
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 371--371
+[]|\OT1/cmr/m/n/10 15, 27,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+[]|\OT1/cmr/m/n/10 Consultar des-em-
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 433--433
+[]|\OT1/cmr/m/n/10 Administrar los pri-vi-le-gios de
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 474--474
+[]|\OT1/cmr/m/n/10 Consulta de asis-
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 481--481
+[]|\OT1/cmr/m/n/10 Gesti^^Son de ex-pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+[]|\OT1/cmr/m/n/10 Consultar ex-pe-
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 495--495
+[]|\OT1/cmr/m/n/10 Se~nal de cui-da-dos
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 551--551
+[]|\OT1/cmr/m/n/10 Alerta de eva-cua-
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 566--566
+\OT1/cmr/m/n/10 sos emi-ti-dos por los do-cen-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
+[]|\OT1/cmr/m/n/10 Actualizaci^^Son de
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 580--580
+[]|\OT1/cmr/m/n/10 Se avi-sar^^Sa del cam-bio de un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|\OT1/cmr/m/n/10 7, 20,
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 628--628
+[]|\OT1/cmr/m/n/10 Visualizar fa-mi-lio-
+ []
+
+
+Overfull \hbox (26.55756pt too wide) in alignment at lines 265--634
+ [] [] [] [] [] 
+ []
+
+[5] [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
+
+ []
+
+
+Overfull \hbox (13.69681pt too wide) in paragraph at lines 642--642
+[]|\OT1/cmr/bx/n/10 Prioridad| 
+ []
+
+
+Overfull \hbox (12.95328pt too wide) in paragraph at lines 642--643
+[]|\OT1/cmr/bx/n/10 Estado| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--650
+[]|\OT1/cmr/m/n/10 Exclusividad del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
+[]|\OT1/cmr/m/n/10 12,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--652
+[]|\OT1/cmr/m/n/10 Exclusividad del
+ []
+
+
+Overfull \hbox (7.16245pt too wide) in paragraph at lines 654--654
+[]|\OT1/cmr/m/n/10 Prioridad| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--655
+[]|\OT1/cmr/m/n/10 26,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 656--657
+[]|\OT1/cmr/m/n/10 30,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
+[]|\OT1/cmr/m/n/10 Exclusividad del
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 664--664
+[]|\OT1/cmr/m/n/10 Personas a car-go
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
+[]|\OT1/cmr/m/n/10 19,
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 666--666
+[]|\OT1/cmr/m/n/10 Horarios de co-mi-
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 666--666
+\OT1/cmr/m/n/10 tom^^Sati-co en 8:30am, 3:00pm,
+ []
+
+
+Overfull \hbox (1.4383pt too wide) in paragraph at lines 668--669
+[]|\OT1/cmr/m/n/10 19,21| 
+ []
+
+
+Overfull \hbox (26.55756pt too wide) in alignment at lines 640--674
+ [] [] [] [] [] 
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
+
+ []
+
+
+Overfull \hbox (13.69681pt too wide) in paragraph at lines 680--680
+[]|\OT1/cmr/bx/n/10 Prioridad| 
+ []
+
+
+Overfull \hbox (12.95328pt too wide) in paragraph at lines 680--681
+[]|\OT1/cmr/bx/n/10 Estado| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--684
+[]|\OT1/cmr/m/n/10 Fechas de na-ci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--690
+[]|\OT1/cmr/m/n/10 Im^^Sage-nes al-ma-ce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
+[]|\OT1/cmr/m/n/10 18,
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 698--698
+\OT1/cmr/m/n/10 do-mi-ci-lio, di-rec-ci^^Son, curp, co-
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 700--700
+[]|\OT1/cmr/m/n/10 Datos del re-por-te
+ []
+
+
+Overfull \hbox (26.55756pt too wide) in alignment at lines 678--745
+ [] [] [] [] [] 
+ []
+
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
+
+ []
+
+
+Overfull \hbox (13.69681pt too wide) in paragraph at lines 751--751
+[]|\OT1/cmr/bx/n/10 Prioridad| 
+ []
+
+
+Overfull \hbox (12.95328pt too wide) in paragraph at lines 751--752
+[]|\OT1/cmr/bx/n/10 Estado| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--755
+[]|\OT1/cmr/m/n/10 Compatibilidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 757--757
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--763
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--769
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
+[]|\OT1/cmr/m/n/10 Compatibilidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--781
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 787--787
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--799
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 805--805
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 811--811
+[]|\OT1/cmr/m/n/10 1, 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
+[]|\OT1/cmr/m/n/10 1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
+\OT1/cmr/m/n/10 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--817
+[]|\OT1/cmr/m/n/10 1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--817
+\OT1/cmr/m/n/10 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--819
+[]|\OT1/cmr/m/n/10 1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--819
+\OT1/cmr/m/n/10 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
+[]|\OT1/cmr/m/n/10 1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
+\OT1/cmr/m/n/10 18,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 822--822
+[]|\OT1/cmr/m/n/10 1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 822--822
+\OT1/cmr/m/n/10 18,
+ []
+
+
+Overfull \hbox (26.55756pt too wide) in alignment at lines 749--823
+ [] [] [] [] [] 
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 827--828
+
+ []
+
+
+Overfull \hbox (13.69681pt too wide) in paragraph at lines 830--830
+[]|\OT1/cmr/bx/n/10 Prioridad| 
+ []
+
+
+Overfull \hbox (12.95328pt too wide) in paragraph at lines 830--831
+[]|\OT1/cmr/bx/n/10 Estado| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--834
+[]|\OT1/cmr/m/n/10 Priorizaci^^Son de
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 836--836
+[]|\OT1/cmr/m/n/10 Visibilidad de ta-
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 836--836
+[]|\OT1/cmr/m/n/10 Las aler-tas de ta-reas y re-ca-
+ []
+
+
+Overfull \hbox (26.55756pt too wide) in alignment at lines 828--841
+ [] [] [] [] [] 
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
+
+ []
+
+
+Overfull \hbox (13.69681pt too wide) in paragraph at lines 848--848
+[]|\OT1/cmr/bx/n/10 Prioridad| 
+ []
+
+
+Overfull \hbox (12.95328pt too wide) in paragraph at lines 848--849
+[]|\OT1/cmr/bx/n/10 Estado| 
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 854--854
+[]|\OT1/cmr/m/n/10 Privacidad en los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 858--858
+[]|\OT1/cmr/m/n/10 Adaptabilidad de
+ []
+
+
+Overfull \hbox (26.55756pt too wide) in alignment at lines 846--861
+ [] [] [] [] [] 
+ []
+
+[14] (./Planeacion.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) ) 
+Here is how much of TeX's memory you used:
+ 2827 strings out of 476025
+ 46386 string characters out of 5796532
+ 1951388 words of memory out of 5000000
+ 23293 multiletter control sequences out of 15000+600000
+ 514420 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,7n,62p,698b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Planeacion.pdf (15 pages, 271255 bytes).
+PDF statistics:
+ 78 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
