@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.3.31)  31 MAR 2023 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.3.31)  31 MAR 2023 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/joshieadalid/Descargas/ADS_Docs-main/Tarea_1/Planeacion.tex
-(/home/joshieadalid/Descargas/ADS_Docs-main/Tarea_1/Planeacion.tex
+**/home/joshieadalid/Documentos/ADS_Docs/Tarea_2b/Planeacion.tex
+(/home/joshieadalid/Documentos/ADS_Docs/Tarea_2b/Planeacion.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -340,11 +340,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 652--652
  []
 
 
-Overfull \hbox (7.16245pt too wide) in paragraph at lines 654--654
-[]|\OT1/cmr/m/n/10 Prioridad| 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 654--655
 []|\OT1/cmr/m/n/10 26,
  []
@@ -635,14 +630,14 @@ LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
  2827 strings out of 476025
- 46386 string characters out of 5796532
+ 46377 string characters out of 5796532
  1951388 words of memory out of 5000000
  23293 multiletter control sequences out of 15000+600000
  514420 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,62p,698b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,7n,62p,695b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Planeacion.pdf (15 pages, 271255 bytes).
+Output written on Planeacion.pdf (15 pages, 271252 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
